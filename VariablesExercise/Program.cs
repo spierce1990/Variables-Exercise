@@ -10,6 +10,8 @@ namespace VariablesExercise
             /* Declare and initialize string
             int char bool double decimal*/
 
+            char symbol = '!';
+
 
             Console.WriteLine(" May I know your name?");
             string? userName = Console.ReadLine();
@@ -18,6 +20,7 @@ namespace VariablesExercise
 
             Console.WriteLine("May I know your gender? Type M or F");
            string? genderType = Console.ReadLine();
+   
             Console.WriteLine($"Hi there {userName}, your gender is {genderType}");
 
             Console.WriteLine($"Hi {userName}, may I also know your age?");
@@ -30,11 +33,11 @@ namespace VariablesExercise
             Convert.ToDecimal(userHeight);
             Console.WriteLine($"Your exact height is {userHeight}");
 
-            Console.WriteLine("May I ask if the all statement provided are true?");
+            Console.WriteLine("May I ask if the all statement provided are true? type true or false");
             string? userTrue = Console.ReadLine();
             Convert.ToBoolean(userTrue);
 
-            Console.WriteLine($"It is confirmed that all statement is: {userTrue}");
+            Console.WriteLine($"It is confirmed that all statement is: {userTrue} {symbol}");
 
 
 
